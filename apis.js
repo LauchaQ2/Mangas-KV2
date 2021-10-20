@@ -1,4 +1,4 @@
-const url = "https://api.jikan.moe/v3/manga";
+const url = "https://api.jikan.moe/v3/manga/1/stats";
 
 fetch(url)
 .then(response => response.json() )
