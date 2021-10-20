@@ -1,14 +1,12 @@
 var imagenes = [];
     
-    imagenes[0] = "https://i.ibb.co/g4cBt1g/Shingeki-no-Kyojin-3-x-1000.png";
-    imagenes[1] = "ONE PIECE.png";
-    imagenes[2] = "https://i.ibb.co/c1zCtSX/Shingeki-no-Kyojin-3-x-1000-1.png";
-    
+    imagenes[0] = "https://i.ibb.co/3hQjwWj/ONE-PIECE.jpg";
+    imagenes[1] = "https://i.ibb.co/b6NyVM1/Shingeki-no-Kyojin-3-x-1000.jpg";
+    imagenes[2] = "https://i.ibb.co/S5DK692/Tokyo-Revengers.jpg";
     
     var indiceimagenes = 0;
 
     document.getElementById("sliderImg").src = imagenes[indiceimagenes];
-
 
     function next(){
         if (indiceimagenes < 2){
@@ -27,3 +25,4 @@ var imagenes = [];
         }
         document.getElementById("sliderImg").src = imagenes[indiceimagenes];
     }
+    setInterval(next, 3000);
