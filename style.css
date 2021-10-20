@@ -1,5 +1,6 @@
 /**{
     border: 1px solid black;
+    font-family: Montserrat;
 }*/
 #logo{
     width: 200px;
@@ -46,5 +47,34 @@ a{
 p{
     color:black;
 }
-
-
+.card-img-top{
+    height: 400px;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat.ttf);
+}
+#footer{
+    height: 120px!important;
+}
+#rowfooter{
+    height: 100%!important;
+}
+#logofooter{
+    width: 80px;
+    height: 80px;
+}
+#logofooter:hover{
+    width: 90px;
+    height: 90px;
+}
+#newsletter{
+    width: 900px!important;
+    height: 150px!important;
+    background-color: lightgrey;
+    font-weight: 600;
+}
+#formnewsletter{
+    width: 100%!important;
+    height: 100%!important;
+}
