@@ -1,4 +1,4 @@
-const url = "https://kitsu.io/api/edge/manga";
+const url = "https://kitsu.io/api/edge";
 
 fetch(url)
 .then(response => response.json() )
