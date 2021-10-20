@@ -1,0 +1,46 @@
+/**{
+    border: 1px solid black;
+}*/
+#logo{
+    width: 200px;
+}
+.list-group{
+    list-style: none!important;
+}
+a{
+    text-decoration: none!important;
+    color: black!important;
+}
+#imgMenu{
+    width: 30px;
+    height: 30px;
+}
+.redes{
+    width: 25px;
+    height: 25px;
+}
+#searchbar{
+    width: 100%!important;
+    height: 100%!important;
+    align-items: center!important;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+#sliderImg{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.buttonSlider{
+    width: 60px;
+    height: 60px;
+}
+#buttonBox2, #buttonBox1{
+    height: 60px!important;
+    width: auto!important;
+}
+
