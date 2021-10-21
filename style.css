@@ -78,3 +78,7 @@ p{
     width: 100%!important;
     height: 100%!important;
 }
+
+#imgcard6, #imgcard7, #imgcard8{
+    height: 220px!important;
+}
