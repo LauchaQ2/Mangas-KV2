@@ -69,7 +69,7 @@ p{
     height: 90px;
 }
 #newsletter{
-    width: 900px!important;
+    width: 75%!important;
     height: 150px!important;
     background-color: lightgrey;
     font-weight: 600;
@@ -81,4 +81,13 @@ p{
 
 #imgcard6, #imgcard7, #imgcard8{
     height: 220px!important;
+}
+#inputmail{
+    width: 550px!important;
+}
+#labelmail{
+    width: 550px!important;
+}
+#btnmail{
+    margin-top: 5px;
 }
