@@ -10,30 +10,34 @@
     <body>
       <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-4 d-flex justify-content-center">
-              <a class="navbar-brand text-body" href="index.html">
+        <div class="col-sm-12 d-flex justify-content-between">
+            <nav class="navbar navbar-expand-lg">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <img id="imgMenu" src="https://i.ibb.co/5kZVHfQ/menus.png" alt="menus">
+                </button>
+                </nav>
+              <a id="logobox" class="navbar-brand text-body" href="index.html">
                 <img id="logo" src="https://i.ibb.co/bH1D92F/logo-large.png" alt="logo-small">
               </a>
+              <nav class="navbar navbar-expand-lg">
+              <button onclick="searchBar()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar2">
+                <img class="redes" src="https://i.ibb.co/MDBxqRq/search.png" alt="search">
+                </button>
+                </nav>
             </div>
-            <div class="col-sm-4 d-flex justify-content-center">
+        </div>
+      </div>
+      <nav id="navbarsearch" class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse d-flex align-items-center" id="collapsibleNavbar2">
+            <div class="container-fluid d-flex justify-content-center align-items-center">
               <form  id="searchbar" class="d-flex justify-content-center align-items-center">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-link" type="submit"><img class="redes" src="https://i.ibb.co/MDBxqRq/search.png" alt="search"></button>
             </form>
             </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-2 d-flex justify-content-center align-items-center">
-              <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/Hx1PStm/logotipo-de-instagram.png" alt="logotipo-de-instagram" border="0"></a>
-              <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/L8hrVHQ/facebook.png" alt="facebook" border="0"></a>
-              <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/6wrxVnx/whatsapp.png" alt="whatsapp" border="0"></a>
             </div>
-        </div>
-      </div>
+            </nav>
       <nav class="navbar navbar-expand-lg">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <img id="imgMenu" src="https://i.ibb.co/5kZVHfQ/menus.png" alt="menus">
-                </button>
                   <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <div class="container-fluid d-flex justify-content-center">
                         <ul class="list-group list-group-horizontal">
@@ -53,25 +57,19 @@
                 </div>
             </div>
       </nav>
-      <div class="container-fluid d-flex">
-        <div id="buttonDiv1" class="d-flex align-items-center">
-          <button id="buttonBox2" class="btn" onclick="back()">
+      <div class="container-fluid d-flex align-items-center justify-content-center">
+          <button id="buttonBox1" class="btn" onclick="back()">
             <img class="buttonSlider" src="https://i.ibb.co/Yb1yxJk/back.png" alt="back">
           </button>
-        </div>
-        <div class="container-fluid" id="slider">
           <img id="sliderImg" alt="img">
-        </div>
-        <div id="buttonDiv2" class="d-flex align-items-center">
           <button id="buttonBox2" class="btn" onclick="next()">
             <img  class="buttonSlider" src="https://i.ibb.co/MCGkKRs/next.png" alt="next">
           </button>
-        </div>
       </div>
       <div class="container-fluid d-flex justify-content-center mt-5">
           <h2 class="border-bottom border-top">PRODUCTOS DESTACADOS</h2>
       </div>
-      <div class="container-fluid d-flex flex-wrap justify-content-around mt-5">
+      <div id="destacados" class="container-fluid d-flex flex-wrap justify-content-around mt-5">
         <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
             <img id="imgcard" class="card-img-top" src="" alt="Card image cap">
                 <div class="card-body text-center">
@@ -154,7 +152,12 @@
                               <div class="col-sm-4 d-flex justify-content-center align-items-center">
                                 <img id="logofooter" src="https://i.ibb.co/z2cNW3M/logo-small-icon-only.png" alt="github">
                               </div>
-                              <div class="col-sm-3"></div>
+                              <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                                    <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/Hx1PStm/logotipo-de-instagram.png" alt="logotipo-de-instagram" border="0"></a>
+                                    <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/L8hrVHQ/facebook.png" alt="facebook" border="0"></a>
+                                    <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/6wrxVnx/whatsapp.png" alt="whatsapp" border="0"></a>
+
+                              </div>
                               <div class="col-sm-1 d-flex justify-content-center align-items-center">
                                 <a href="https://github.com/LauchaQ2/"><img class="redes" src="https://i.ibb.co/R0CBgQ0/github.png" alt="#"></a>
                               </div>
@@ -165,6 +168,7 @@
       
       </footer>
     
+    <script src="fetch.js"></script>
     <script src="slider.js"></script>
     <script src="mangadatabase.js"></script>
   </body>
