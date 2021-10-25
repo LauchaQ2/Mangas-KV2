@@ -26,3 +26,9 @@ var imagenes = [];
         document.getElementById("sliderImg").src = imagenes[indiceimagenes];
     }
     setInterval(next, 3000);
+    
+    
+    function searchBar(){
+        document.getElementById("navbarsearch").style.visibility = "visible";
+        document.getElementById("navbarsearch").style.height = "auto";
+    }
