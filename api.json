@@ -1,0 +1,110 @@
+
+
+[{
+    "titulo": "Naruto #1",
+    "portada": "https://m.media-amazon.com/images/I/61blY+DiS4L.jpg",
+    "mangaka": "Kishimoto",
+    "precio": 500
+},
+{
+    "titulo": "Naruto #2",
+    "portada": "https://i.ibb.co/GJ6mq6t/naruto2.jpg",
+    "mangaka": "Kishimoto",
+    "precio": 500
+},
+ {
+    "titulo": "Naruto #3",
+    "portada": "https://i.ibb.co/GJ6mq6t/naruto2.jpg",
+    "mangaka": "Kishimoto",
+    "precio": 500
+},
+ {
+    "titulo": "One Piece #1",
+    "portada": "https://m.media-amazon.com/images/I/51T6jmOtLYL.jpg",
+    "mangaka": "Oda",
+    "precio": 600
+},
+ {
+    "titulo": "One Piece #2",
+    "portada": "https://i.ibb.co/RYky4jB/onepiece2.png",
+    "mangaka": "Oda",
+    "precio": 600
+},
+ {
+    "titulo": "One Piece #3",
+    "portada": "https://i.ibb.co/Nsn2WnT/onepiece3.png",
+    "mangaka": "Oda",
+    "precio": 600
+},
+ {
+    "titulo": "Attack on Titan #1",
+    "portada": "https://images-na.ssl-images-amazon.com/images/I/51QWSFImgvL._SX342_SY445_QL70_ML2_.jpg",
+    "mangaka": "Isayama",
+    "precio": 650
+},
+{
+    "titulo": "Attack on Titan #2",
+    "portada": "https://i.ibb.co/RzxtSr5/snk2.jpg",
+    "mangaka": "Isayama",
+    "precio": 650
+},
+ {
+    "titulo": "Attack on Titan #3",
+    "portada": "https://i.ibb.co/rffvF3M/snk3.jpg",
+    "mangaka": "Isayama",
+    "precio": 650
+},
+ {
+    "titulo": "Tokyo Revengers #1",
+    "portada": "https://i.ibb.co/mSs9pLy/tokyo1.jpg",
+    "mangaka": "Wakui",
+    "precio": 700
+},
+ {
+    "titulo": "Tokyo Revengers #2",
+    "portada": "https://i.ibb.co/4YJwJyC/tokyo2.jpg",
+    "mangaka": "Wakui",
+    "precio": 700
+},
+ {
+    "titulo": "Tokyo Revengers #3",
+    "portada": "https://i.ibb.co/18FG16v/tokyo3.jpg",
+    "mangaka": "Wakui",
+    "precio": 700
+},
+ {
+    "titulo": "Demon Slayer #1",
+    "portada": "https://i.ibb.co/Bg1dqBH/kimetsu1.jpg",
+    "mangaka": "Gotouge",
+    "precio": 650
+},
+ {
+    "titulo": "Demon Slayer #2",
+    "portada": "https://i.ibb.co/vjqTB7H/kimetsu2.jpg",
+    "mangaka": "Gotouge",
+    "precio": 650
+},
+ {
+    "titulo": "Demon Slayer #3",
+    "portada": "https://i.ibb.co/CszwfJD/kimetsu3.jpg",
+    "mangaka": "Gotouge",
+    "precio": 650
+},
+ {
+    "titulo": "Naruto",
+    "portada": "https://i.ibb.co/1b4rtQW/Screenshot-2021-10-21-MANGA-KV2.png",
+    "mangaka": "Funko Pop",
+    "precio": 2500
+},
+ {
+    "titulo": "Luffy",
+    "portada": "https://i.ibb.co/BgSsp6j/onepiecefunkopop.jpg",
+    "mangaka": "Funko Pop",
+    "precio": 3500
+},
+ {
+    "titulo": "Eren (Titan Form)",
+    "portada": "https://i.ibb.co/Bq6mMcD/snkfunkopop.jpg",
+    "mangaka": "Funko Pop",
+    "precio": 2990
+}]

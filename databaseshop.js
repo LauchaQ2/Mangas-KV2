@@ -25,7 +25,7 @@ var kimetsu3 = new Mangas("Demon Slayer #3", "https://i.ibb.co/CszwfJD/kimetsu3.
 
     
     // Productos Shop
-    
+    /*
     document.getElementById("prodcard1").src = naruto1.portada;
     document.getElementById("prodtitle1").innerHTML = naruto1.titulo;
     document.getElementById("prodmangaka1").innerHTML = "Mangaka: " +  naruto1.mangaka;
@@ -87,7 +87,7 @@ var kimetsu3 = new Mangas("Demon Slayer #3", "https://i.ibb.co/CszwfJD/kimetsu3.
     document.getElementById("prodmangaka15").innerHTML = "Mangaka: " +  kimetsu3.mangaka;
   
 
-    
+    */
     
     
     

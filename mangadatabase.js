@@ -30,6 +30,7 @@ var funko3 = new Mangas("Eren (Titan Form)","https://i.ibb.co/Bq6mMcD/snkfunkopo
 
     //Productos Destacados Home
 
+  //  document.getElementById("imgcard").src = naruto1.portada;
     document.getElementById("imgcard").src = naruto1.portada;
     document.getElementById("titlecard").innerHTML = naruto1.titulo;
     document.getElementById("mangakacard").innerHTML = "Mangaka: " + naruto1.mangaka;

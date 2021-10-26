@@ -39,29 +39,12 @@ a{
 }
 #sliderImg{
     border-radius: 10px;
-    width: 75%;
+    width: 90%;
     height: auto;
 }
-@media only screen and (max-width: 600px) {
-    .buttonSlider{
-        width: 20px;
-        height: 20px;
-    }
-    #buttonBox2, #buttonBox1{
-        height: 20px!important;
-        width: 100%!important;
-    }
-}
-.buttonSlider{
-    width: auto;
-    height: 60px;
-}
-#buttonBox2, #buttonBox1{
-    height: 60px!important;
-    width: 5%!important;
-}
-p{
-    color:black;
+.card-body:hover, .card:hover{
+    background-color: black!important;
+    color: white;
 }
 .card-img-top{
     height: 400px;
