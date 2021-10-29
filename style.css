@@ -5,8 +5,7 @@
 #logo{
     width: 200px;
 }
-#logobox{
-}
+
 #navbarsearch{
     visibility: visible;
     height: auto;
@@ -69,7 +68,7 @@ a{
 }
 #newsletter{
     width: 75%!important;
-    height: 150px!important;
+    height: auto!important;
     background-color: lightgrey;
     font-weight: 600;
 }

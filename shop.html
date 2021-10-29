@@ -63,9 +63,9 @@
                 Filtros
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a onclick="Alfabet()" class="dropdown-item" href="#">Por Orden Alfabético</a></li>
-                <li><a class="dropdown-item" href="#">Por Título</a></li>
-                <li><a class="dropdown-item" href="#">Por Precio</a></li>
+                <li><a onclick="Alfabet()" id="ordenBy" class="dropdown-item" href="#">Por Orden Alfabético</a></li>
+                <li><a onclick="PriceOrderCheap()" class="dropdown-item" href="#">Más barato primero</a></li>
+                <li><a onclick="PriceOrderExp()" class="dropdown-item" href="#">Más caro primero</a></li>
               </ul>
             </div>
       </div>
@@ -79,9 +79,9 @@
 
       <div id="newsletter" class="container d-flex flex-wrap mt-5 justify-content-center align-items-center">
         <form id="formnewsletter" class="container d-flex flex-wrap justify-content-center align-items-center">
-          <label id="labelmail" for="InputSuscribe" class="form-label">¡Suscribite y sé el primero en enterarte de las novedades!</label>
-          <input id="inputmail" class="form-control me-2" type="email" placeholder="Tu dirección de e-mail" aria-label="e-mail">
-          <button id="btnmail" class="btn btn-primary" type="submit">Suscribirse</button>
+          <label id="labelmail" for="InputSuscribe" class="form-label mt-2 text-center">¡Suscribite y sé el primero en enterarte de las novedades!</label>
+          <input id="inputmail" class="form-control me-2 mb-2" type="email" placeholder="Tu dirección de e-mail" aria-label="e-mail">
+          <button id="btnmail" class="btn btn-primary mb-2" type="submit">Suscribirse</button>
         </form>  
       </div>
       <footer id="footer" class="container-fluid mt-5">
@@ -92,14 +92,16 @@
                               <div class="col-sm-4 d-flex justify-content-center align-items-center">
                                 <img id="logofooter" src="https://i.ibb.co/z2cNW3M/logo-small-icon-only.png" alt="github">
                               </div>
-                              <div class="col-sm-3"></div>
-                              <div class="col-sm-1 d-flex justify-content-center align-items-center">
-                                <a href="https://github.com/LauchaQ2/"><img class="redes" src="https://i.ibb.co/R0CBgQ0/github.png" alt="#"></a>
+                              <div class="col-sm-4 d-flex flex-wrap justify-content-center align-items-center">
+                                <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/Hx1PStm/logotipo-de-instagram.png" alt="logotipo-de-instagram" border="0"></a>
+                                <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/L8hrVHQ/facebook.png" alt="facebook" border="0"></a>
+                                <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/6wrxVnx/whatsapp.png" alt="whatsapp" border="0"></a>
+                                <a  class="nav-link" href="https://github.com/LauchaQ2/"><img class="redes" src="https://i.ibb.co/R0CBgQ0/github.png" alt="#"></a>
                               </div>
         </div>
       </footer>
-    <script src="fetchShop.js" type="text/javascript" charset="utf-8"></script>
-    <script src="fetch.js"></script>
-    <script src="databaseshop.js"></script>  
+    <script src="fetchShop.js" type="text/javascript" charset="utf-8"></script>  
+    <script src="AlfabeticalOrder.js" type="text/javascript" charset="utf-8"></script>
+    <script src="PriceOrder.js" type="text/javascript" charset="utf-8"></script>
     </body>
 </html>
