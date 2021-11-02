@@ -1,11 +1,11 @@
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-        <link rel="stylesheet" href="style.css" type="text/css" media="all"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css" media="all"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-        <title>MANGAS KV2</title>
+        <title>MANGA KV2</title>
     </head>
     <body>
       <div class="container-fluid">
@@ -20,10 +20,10 @@
                 <img id="logo" src="https://i.ibb.co/bH1D92F/logo-large.png" alt="logo-small">
               </a>
               <nav class="navbar navbar-expand-lg">
-                  <div class="btn-group dropstart">
-                            <img class="redes" src="https://i.ibb.co/xfHJPsc/carrito-de-compras.png" alt="carro-de-la-carretilla" border="0">
-                  </div>
-                </nav>
+                <div class="btn-group dropstart">
+                  <img class="redes" src="https://i.ibb.co/xfHJPsc/carrito-de-compras.png" alt="carro-de-la-carretilla" border="0">
+                </div>
+              </nav>
             </div>
         </div>
       </div>
@@ -40,7 +40,7 @@
       <nav class="navbar navbar-expand-lg mb-3">
                   <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <div class="container-fluid d-flex justify-content-center">
-                        <ul class="list-group d-flex flex-wrap list-group-horizontal">
+                        <ul class="list-group list-group-horizontal">
                             <li class="nav-item border-bottom border-top">
                               <a class="nav-link " href="shop.html">Shop</a>
                             </li>
@@ -57,51 +57,45 @@
                 </div>
             </div>
       </nav>
-      <div class="container-fluid d-flex align-items-center justify-content-center">
-          <img id="sliderImg" alt="img">
+      <div class="container-fluid d-flex justify-content-center mt-5">
+          <h1 class="border-bottom border-top">CATEGORÍAS
+          </h1>
       </div>
-      <div class="container-fluid d-flex flex-wrap justify-content-center mt-5">
-          <h3 class="border-bottom border-top">PRODUCTOS DESTACADOS</h3>
-      </div>
-      <div id="destacados" class="container-fluid d-flex flex-wrap justify-content-around mt-5">
-        
+      
+       <div id="categorias-container" class="container-fluid d-flex flex-wrap justify-content-around mt-3">
+         
+           <div id="shonen" class="container-sm mt-2 mb-2">
+          <div class="opacity">
+            <a href="#"><p class="titleCateg">SHONEN</p></a>
+          </div>
+          </div>
+         <div id="seinen" class="container-sm mb-2">
+          <div class="opacity">
+            <a href="#"><p class="titleCateg">SEINEN</p></a>
+          </div>
+         </div>
+         <div id="drama" class="container-sm mb-2">
+          <div class="opacity">
+            <a href="#"><p class="titleCateg">DRAMA</p></a>
+          </div>
+         </div>
+         <div id="romance" class="container-sm mb-2">
+          <div class="opacity">
+            <a href="#"><p class="titleCateg">ROMANCE</p></a>
+          </div>
+         </div>
       </div>
 
-        <div class="container-fluid d-flex justify-content-center mt-5">
-          <h2 class="border-bottom border-top">NOVEDADES</h2>
-        </div>
-      
-      
-      <div id="novedadesHome" class="container-fluid d-flex flex-wrap justify-content-around mt-5">
-        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
-            <img id="imgcard6" class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body text-center">
-                    <h4 id="titlecard6" class="card-text"></h4>
-                    <p id="mangakacard6" class="card-text"></p>
-                </div>
-        </div>
-        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
-            <img id="imgcard7" class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body text-center">
-                    <h4 id="titlecard7" class="card-text"></h4>
-                    <p id="mangakacard7" class="card-text"></p>
-                </div>
-        </div>
-        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
-          <img id="imgcard8" class="card-img-top" src="" alt="Card image cap">
-              <div class="card-body text-center">
-                  <h4 id="titlecard8" class="card-text"></h4>
-                  <p id="mangakacard8" class="card-text"></p>
-              </div>
-        </div>
-      </div>
+
+
+
 
 
       <div id="newsletter" class="container d-flex flex-wrap mt-5 justify-content-center align-items-center">
-        <form id="formnewsletter" class="container d-flex flex-wrap justify-content-center align-items-center mt-3">
-          <label id="labelmail" for="InputSuscribe" class="form-label d-flex mt-2 text-center align-items-center">¡Suscribite y sé el primero en enterarte de las novedades!</label>
-          <input id="inputmail" class="form-control me-2" type="email" placeholder="Tu dirección de e-mail" aria-label="e-mail">
-          <button id="btnmail" class="btn btn-primary" type="submit">Suscribirse</button>
+        <form id="formnewsletter" class="container d-flex flex-wrap justify-content-center align-items-center">
+          <label id="labelmail" for="InputSuscribe" class="form-label mt-2 text-center">¡Suscribite y sé el primero en enterarte de las novedades!</label>
+          <input id="inputmail" class="form-control me-2 mb-2" type="email" placeholder="Tu dirección de e-mail" aria-label="e-mail">
+          <button id="btnmail" class="btn btn-primary mb-2" type="submit">Suscribirse</button>
         </form>  
       </div>
       <footer id="footer" class="container-fluid mt-5">
@@ -113,20 +107,14 @@
                                 <img id="logofooter" src="https://i.ibb.co/z2cNW3M/logo-small-icon-only.png" alt="github">
                               </div>
                               <div class="col-sm-4 d-flex flex-wrap justify-content-center align-items-center">
-                                    <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/Hx1PStm/logotipo-de-instagram.png" alt="logotipo-de-instagram" border="0"></a>
-                                    <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/L8hrVHQ/facebook.png" alt="facebook" border="0"></a>
-                                    <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/6wrxVnx/whatsapp.png" alt="whatsapp" border="0"></a>
-                                    <a  class="nav-link" href="https://github.com/LauchaQ2/"><img class="redes" src="https://i.ibb.co/R0CBgQ0/github.png" alt="#"></a>
-                                  </div>
-                              
+                                <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/Hx1PStm/logotipo-de-instagram.png" alt="logotipo-de-instagram" border="0"></a>
+                                <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/L8hrVHQ/facebook.png" alt="facebook" border="0"></a>
+                                <a class="nav-link" href="#"><img class="redes" src="https://i.ibb.co/6wrxVnx/whatsapp.png" alt="whatsapp" border="0"></a>
+                                <a  class="nav-link" href="https://github.com/LauchaQ2/"><img class="redes" src="https://i.ibb.co/R0CBgQ0/github.png" alt="#"></a>
+                              </div>
         </div>
-       
-      
-      
-      
       </footer>
-    <script src="fetch.js"></script>
-    <script src="slider.js"></script>
-    <script src="mangadatabase.js"></script>
-  </body>
+
+   
+    </body>
 </html>

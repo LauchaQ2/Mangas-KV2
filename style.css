@@ -81,11 +81,84 @@ a{
     height: 220px!important;
 }
 #inputmail{
-    width: 550px!important;
+    width: 75%!important;
 }
 #labelmail{
     width: 550px!important;
 }
 #btnmail{
     margin-top: 5px;
+}
+#prodcardNaruto, #prodcardLuffy, #prodcardEren{
+    object-fit: contain!important;
+}
+#prodtitle{
+    font-size: 75px!important;
+}
+#shonen{
+    display: flex;
+    height: 300px;
+    background-image: url("shonenbanner.jfif");
+    background-position: center;
+    font-size: 90px;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0;
+}
+#seinen{
+    display: flex;
+    height: 300px;
+    background-image: url("seinen\ banner.jpg");
+    background-position: center;
+    font-size: 90px;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0;
+    background-size: cover;
+}
+#drama{
+    display: flex;
+    height: 300px;
+    background-image: url("drama\ banner.jpg");
+    background-position-y: 0px;
+    font-size: 90px;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0;
+    background-size: cover;
+}
+#romance{
+    display: flex;
+    height: 300px;
+    background-image: url("romance\ banner.jpg");
+    background-position: center;
+    font-size: 80px;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0;
+    background-size: cover;
+}
+.opacity{
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+.titleCateg{
+    opacity: 1!important;
+    color: white;
+}
+#backgroundForm{
+    background-color: grey;
+    width: 50%;
+}
+.labelAccount{
+    color: white;
+    font-size: 20px;
+}
+h3{
+    width: auto!important;
 }
